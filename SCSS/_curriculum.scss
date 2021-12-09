@@ -1,0 +1,73 @@
+@use "sass:math";
+
+
+
+.curriculo {
+
+    padding: 30;
+    width: 800;
+
+    
+    
+    
+
+    &__cabecalho{
+        font-family: Verdana, sans-serif;
+        font-size: 15pt; 
+        margin-left: 30px;
+      
+        text-align: center;
+       
+        
+
+    }
+ 
+    &__corpo{
+     
+
+
+      
+      
+        background-color: #ffff;
+  
+        font-family: Verdana, sans-serif;
+        font-size: 15pt;       
+       
+        
+        ul {
+            padding: 4px 8px 4px 16px;
+            text-align: left;
+        }
+      
+          
+          h3{
+            color: #8901AA;
+            padding-top: 15px;
+            Padding-bottom: 15px;
+            text-align: center;
+          }
+          li{
+
+
+            @include for-tablet-only {
+              
+              margin-left: 50px;
+              margin-right:100px;  
+              
+      
+            }
+            @include for-desktop-only {
+              
+              margin-left: 200px;
+              margin-right:250px;  
+              width: 30;
+      
+            }
+          
+          }
+          
+          
+         
+    }
+}
+ 
