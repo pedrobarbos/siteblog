@@ -5,15 +5,19 @@
    
     &__logo {
         text-align: center;
+        background-color: $dark-grey;
         
     }
     &__img{
-       
-        max-width: 1200px;
-        height: 250px;
+        
+        @include for-tablet-only{
+            max-width: 1600px;
+        height: 200px;
+        padding-left: 0px;
+        }
         
         @include for-desktop-only{
-            max-width: 1600px;
+            max-width: 1800px;
         height: 250px;
         }
         

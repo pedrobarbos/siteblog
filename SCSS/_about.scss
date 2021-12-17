@@ -3,7 +3,7 @@
     background-color: $light-grey;
 }
 .about {
-    background-color: $light-grey;
+  
 
     @include for-phone-only {   
         width: 90%;
@@ -32,6 +32,28 @@
         margin-left: 0;
         margin-right: 0;
 
+    }
+    .breadcrumb{   
+        background-color: $light-grey;
+        
+        &__link {
+            @include fontSize(18px);
+            text-decoration: unset;
+            color: $dark-grey;
+            letter-spacing: 1px;
+            
+            &:hover {
+                color: $purple;
+                text-decoration: underline;
+            }
+        }
+
+        &__img {
+            width: 14px;
+            margin: 10px;
+
+          
+        }
     }
    // 1 pagina de sobre nois (article antigo)
     .article {
@@ -65,27 +87,7 @@
        
        
     }
- .breadcrumb{   
-    background-color: $light-grey;
-    
-        &__link {
-            @include for-desktop-only {
-                width: 30%;
-            }
-            font-size: 12px;
-            text-decoration: none;
-            color: $dark-grey;
-            &:hover {
-                text-decoration: underline;
-                color: $purple;
-            }
-        }
-
-        &__img {
-            width: 10px;
-            margin: 8px;
-        }
-    }
+ 
 
     &__img {
         

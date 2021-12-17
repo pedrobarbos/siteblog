@@ -23,7 +23,7 @@ Grande parte das funções extras do Sass vem no formato de At rules, e nesta au
 E também fluxos de controle, como: @if, @each, @for e @while.
 
 
-
+dinâmico
 ------------
 
 
