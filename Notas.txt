@@ -57,4 +57,38 @@ sass --watch projeto-sass\SCSS\style.scss:projeto-sass\CSS\style.css
 
 
 
+--------------
+
+projeto-sass\src\css\style.css
+
+projeto-sass\src\scss\style.scss
+
+
+
+…or create a new repository on the command line
+echo "# Blog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pedrobarbos/siteblog.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/pedrobarbos/siteblog.git
+git branch -M main
+git push -u origin main
+
+
+/e/pedro/alura/css-sass/projeto-sass
+
+
+
+git remote add origin https://github.com/pedrobarbos/siteblog.git
+
+gulp para atuomatizar sass
+https://medium.com/gummaoficial/compilando-sass-com-gulp-ed1e5f9ed417
+
+
+
+
 
