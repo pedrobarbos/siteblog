@@ -5,20 +5,22 @@
    
     &__logo {
         text-align: center;
-        background-color: $dark-grey;
+       // background-color: $dark-grey;
         
     }
     &__img{
+       
         
         @include for-tablet-only{
-            max-width: 1600px;
-        height: 200px;
+            max-width: 1700px;
+        height: 220px;
         padding-left: 0px;
         }
         
         @include for-desktop-only{
-            max-width: 1800px;
-        height: 250px;
+            max-width: 1900px;
+             height: 232px;
+       
         }
         
     }

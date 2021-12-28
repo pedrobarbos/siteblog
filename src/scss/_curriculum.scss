@@ -1,0 +1,122 @@
+@use "sass:math";
+
+
+
+.curriculo{
+  
+  
+
+    &__cabecalho{
+        font-family: Verdana, sans-serif;
+        font-size: 15pt; 
+        margin-left: 30px;    
+        text-align: left;   
+        background-color : $color;
+    
+     }
+
+       &__nome{
+
+         font-family:Palatino, URW Palladio L, serif;
+        text-align: center;
+        font-size: 33px;
+       }      
+
+       &__dados{
+        font-family: Times, Times New Roman, serif;
+        font-size: 23px;
+        padding-left: 100px;
+       }
+    
+      }
+        
+   
+      .experiencia{
+        
+        
+        &__campo{
+          
+          font-size: 30px;
+        
+          text-align: center;
+          font-family: Times, Times New Roman, serif;
+         
+        }
+        &__title {
+          font-size: 24px;
+          padding-left: 100px;
+          font-family: Times, Times New Roman, serif;
+         
+        }
+        &__descricao{
+          padding-left: 100px;
+          padding-right: 100px;
+        
+          font-family: Times, Times New Roman, serif;
+          
+        }
+
+        &__observacao{
+          padding-left: 128px;
+          font-family: Times, Times New Roman, serif;
+        }
+
+
+      }
+       
+   /*
+    &__corpo{
+
+      text-align: left;
+
+      @include for-tablet-only {
+              
+        margin-left: 50px;
+        margin-right:100px;  
+        
+        
+
+      }
+      @include for-desktop-only {
+        
+        margin-left: 200px;
+        margin-right:250px;  
+        width: 30;
+
+      }
+         
+      */ 
+ 
+
+
+        
+     /*
+        &__title{
+          text-align: left;
+          font-family: Verdana, sans-serif;
+        }*/
+
+  
+      
+        
+      
+        
+       /* ul {
+            padding: 4px 8px 4px 16px;
+           // text-align: left;
+        }
+      
+          
+          h1{
+            color: #8901AA;
+            padding-top: 15px;
+            Padding-bottom: 15px;
+            text-align: center;
+          }*/
+         
+          
+          
+         
+    
+
+ 
