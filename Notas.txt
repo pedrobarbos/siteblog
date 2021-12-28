@@ -88,6 +88,17 @@ git remote add origin https://github.com/pedrobarbos/siteblog.git
 gulp para atuomatizar sass
 https://medium.com/gummaoficial/compilando-sass-com-gulp-ed1e5f9ed417
 
+----------------------
+
+erro no psuh no src:
+
+
+Devido à recente ação "Substituindo mestre por principal no GitHub", você pode notar que há um refs/heads/main. Como resultado, o seguinte comando pode mudar de git push origin HEAD:masterparagit push origin HEAD:main
+
+Você pode tentar git push origin HEAD:masteruma solução mais independente de referência local. Isso afirma explicitamente que você deseja enviar o ref local HEADpara o ref remoto master(consulte a documentação refspec do git-push ).
+
+
+https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
 
 
 
