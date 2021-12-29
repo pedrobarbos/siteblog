@@ -1,0 +1,88 @@
+// pagna adicional ao clicar no link cuidados com animais durante a quarentena
+.article {
+    @include for-phone-only {   
+       width: 90%;
+   }
+   width: 80%;
+   margin: 0 auto 40px;
+   font-family: Arial, Helvetica, sans-serif;
+  .about {
+
+
+   &__breadcrumb {
+    background-color: $light-grey;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadcrumb {
+    &__title {
+        background-color: $light-grey;
+        text-align: center;
+        padding: 20px;
+    
+    &__h1 {
+        font-size: 22px;
+        color: $dark-grey;
+        letter-spacing: 1px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    &__link {
+        @include fontSize(18px);
+        text-decoration: unset;
+        color: $dark-grey;
+        letter-spacing: 1px;
+        
+        &:hover {
+            color: $purple;
+            text-decoration: underline;
+        }
+    }
+
+    &__img {
+        width: 14px;
+        margin: 10px;
+
+      
+    }
+}
+}
+   &__img {
+       margin-bottom: 20px;
+       width: 100%;
+   }
+
+   &__details {
+       @include flx(justify-content, center);
+       align-items: center;
+   }
+
+   &__date {
+    @extend %no-margin-top, %no-margin-bottom, %default-margin-left, %default-margin-right;
+       font-size: 12px;
+       font-style: italic;
+   }
+
+   &__tag {
+       font-size: 14px;
+       padding: 5px 7px;
+       color: $purple;
+       border: 1px solid $purple;
+       @extend %no-margin-top, %no-margin-bottom, %default-margin-left, %default-margin-right;
+   }
+
+   &__content {
+       font-weight: 100;
+       font-size: 14px;
+       color: $dark-grey;
+       padding: 10px 20px;
+   }
+  }
+}

@@ -1,0 +1,168 @@
+
+.corpo{
+    background-color: $light-grey;
+}
+.about {
+  
+
+    @include for-phone-only {   
+        width: 90%;
+    }
+    @include for-tablet-only {
+        width: 100%;
+    }
+
+@mixin for-desktop-only {
+      width: 120%;
+}
+    
+    width: 80%;
+    margin:  0 auto 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__title {
+        background-color: $light-grey;
+        text-align: center;
+        padding: 20px;
+        font-size: 19px;
+    }
+
+    &__h1 {
+        font-size:  24px;
+        color: $dark-grey;
+        letter-spacing: 1px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .breadcrumb{   
+        background-color: $light-grey;
+        
+        &__link {
+            @include fontSize(18px);
+            text-decoration: unset;
+            color: $dark-grey;
+            letter-spacing: 1px;
+            
+            &:hover {
+                color: $purple;
+                text-decoration: underline;
+            }
+        }
+
+        &__img {
+            width: 13px;
+            margin: 1px;
+           // padding: 10px 10px;
+
+          
+        }
+    }
+   // 1 pagina de sobre nois (article antigo)
+    .article {
+
+        background-color: $light-grey;
+        @include for-phone-only {   
+            width: 90%;
+        }
+       
+        width: 80%;
+        margin: 0 auto 40px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        &__title {
+            background-color: $light-grey;
+            text-align: center;
+            padding: 20px;
+        } 
+    
+        &__h1 {
+            font-size: 22px;
+            color: $dark-grey;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin-left: 0;
+            margin-right: 0;
+    
+        }
+
+       
+       
+    }
+ 
+
+    &__img {
+        
+        width: 90%;
+        margin-bottom: 40px;
+        height: 500px;
+        padding-left: 30px;
+    }
+   
+    &__intro {
+        font-weight: 100;
+        color: $dark-grey;
+        width: 90%;
+        //margin: 20px auto;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    &__introo {
+        font-size: 18px;
+        //padding: 10px 40px;
+        color: $dark-grey;
+        padding-right: 110px;
+    }
+
+    
+
+   &__split {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+
+    
+
+   }
+
+   &__img-description {
+       width: $img-width;
+      // height: px;
+
+
+   }
+   
+   &__txt{
+       width: calc(100% - #{$img-width});
+
+
+       
+   }
+    
+  
+
+   &__p {
+    font-size: 18px;
+    padding: 10px 40px;
+    color: $dark-grey;
+    padding-right: 110px;
+    &_tag{
+        @include fontSize(18px);
+            text-decoration: unset;
+            color: $dark-grey;
+            letter-spacing: 1px;
+            
+            &:hover {
+                color: $purple;
+                text-decoration: underline;
+            }
+      }
+
+   }
+
+}

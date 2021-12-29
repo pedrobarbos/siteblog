@@ -1,0 +1,99 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: #ffff;
+   
+   
+    &__logo {
+        text-align: center;
+       // background-color: $dark-grey;
+        
+    }
+    &__img{
+       
+        
+        @include for-tablet-only{
+            max-width: 1700px;
+        height: 220px;
+        padding-left: 0px;
+        }
+        
+        @include for-desktop-only{
+            max-width: 1900px;
+             height: 232px;
+       
+        }
+        
+    }
+
+  
+    
+    .menu {
+       
+        width: 200;
+        &__list {
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid $light-grey;
+            border-bottom: 1px solid $light-grey;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+
+            @include for-phone-only{
+                width: 90%;
+                padding: 15px 0;
+                flex-wrap: wrap;
+            }
+
+            @include for-tablet-only{
+                width: 80%;
+                padding: 20px 0;
+                
+            }
+               @include for-desktop-only{
+            width: 90%;
+            padding: 20px 0;
+            flex-wrap: wrap;
+          
+        }
+
+          
+        }
+
+        &__links{
+
+                position: relative;
+                @include for-phone-only{
+                    padding: 5px 0;
+                }
+                
+
+            &:not(:last-child)::after{
+                content: "";
+                position: relative;
+                top: 0;
+                bottom: 0;
+                right: 15px;
+                margin: auto;
+                height: 15px;
+                width: 1px;
+                background-color: $light-grey;
+                }    
+            
+            }
+            
+            &__link {
+                padding: 0 25px;
+                color : $dark-grey;
+
+                &:hover{
+                    color:$purple;
+               }
+            
+            
+            }
+         
+    }
+
+}
