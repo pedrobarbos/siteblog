@@ -21,7 +21,7 @@ A ideia desse projeto é ser meu apresentador de portilho, conforme for avançan
  
 <div> 
 
-  <a href="https://www.linkedin.com/in/pedroibarbosa/ target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://www.linkedin.com/in/pedroibarbosa/><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
   ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
  
